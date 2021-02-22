@@ -1,0 +1,191 @@
+body
+{
+    background-color: honeydew;
+}
+.calosc
+{
+
+    position: relative;
+    background-color: honeydew;
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+   margin-right: auto;
+}   
+
+.a
+{
+    
+    width: 485px;
+    height: 100%;
+    background-color:blue;
+     float: left;   
+     background: url("aa.png") no-repeat;
+     background-position: center;
+     background-size: 70%;
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.a:hover{
+    border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+    }
+.b
+{
+    
+    float: left;
+    margin-left: 30px;
+    width: 485px;
+    height: 235px;
+    background-color:yellow;
+    margin-bottom: 30px;
+    background: url("bb.png") no-repeat;
+    background-position: center;
+    background-size: 45%;
+    -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.b:hover{
+    border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+    }
+.c
+{
+    margin-left: 30px;
+    width: 227.5px;
+    height: 235px;
+    background-color: green;
+    float: left;
+    background: url("cc.png") no-repeat;
+    background-position: center;
+    background-size: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+         transition: all 0.5s ease;
+}
+
+.c:hover{
+    border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+    }
+.d
+{
+    margin-left: 30px;
+    float: left;
+    width: 227.5px;
+    height: 235px;
+    background-color: pink;
+    background: url("dd.png") no-repeat;
+    background-position: center;
+    background-size: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+         transition: all 0.5s ease;
+}
+.d:hover{
+    border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+    }
+
+.a
+{
+    width: 485px;
+    height: 100%;
+    background-color:white;
+     float: left;   
+
+}
+.b
+{
+    
+    float: left;
+    margin-left: 30px;
+    width: 485px;
+    height: 235px;
+    background-color:white;
+    
+}
+.c
+{
+    margin-left: 30px;
+    width: 227.5px;
+    height: 235px;
+    background-color: white;
+    float: left;
+   
+}
+.d
+{
+    margin-left: 30px;
+    float: left;
+    width: 227.5px;
+    height: 235px;
+    background-color: white;
+    
+}
+
+.a p {
+    clear:both;
+    -ms-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    margin-left: -400px;
+    margin-top: 42px;
+    font-weight: bold;
+
+      }
+      .b p {
+        -ms-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        -webkit-transform: rotate(-90deg); 
+        transform: rotate(-90deg);
+         margin-left: -400px;
+         margin-top: -222px;
+        
+        font-weight: bold;
+      }
+        .c p {
+            -ms-transform: rotate(-90deg); 
+            -moz-transform: rotate(-90deg); 
+            -webkit-transform: rotate(-90deg); 
+            transform: rotate(-90deg);
+            margin-left: -180px;
+            margin-bottom: 0px;
+            font-weight: bold;
+        }
+            .d p {
+                -ms-transform: rotate(-90deg); 
+                -moz-transform: rotate(-90deg); 
+                -webkit-transform: rotate(-90deg); 
+                transform: rotate(-90deg);
+                margin-left: -180px;
+                margin-bottom: 0px;
+                font-weight: bold;
+            }
