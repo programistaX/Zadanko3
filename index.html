@@ -2,6 +2,8 @@
 <html>
 <head>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="glide.core.min.css">
+  <link rel="stylesheet" href="glide.theme.min.css">
 </head>
 <body>
 
@@ -26,6 +28,44 @@
         </div>
  
 </div>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 
+<div class="container">
+<div class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        <li id="a" class="glide__slide"><img src="a1.png"/></li>
+        <li id="b" class="glide__slide"><img src="a2.png"/></li>
+        <li id="c" class="glide__slide"><img src="a3.png"/></li>
+        <li id="d" class="glide__slide"><img src="a4.png"/></li>
+        <li id="e" class="glide__slide"><img src="a5.png"/></li>
+        <li id="f" class="glide__slide"><img src="a6.png"/></li>
+        <li id="g" class="glide__slide"><img src="a7.png"/></li>
+        <li id="h" class="glide__slide"><img src="a8.png"/></li>
+
+      </ul>
+    </div>
+    <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+      </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script> 
+<script>
+
+const config = {
+    type: 'carousel',
+    perView: 4,
+    autoplay: 2000,
+
+    
+}
+
+
+new Glide('.glide', config).mount()
+  </script>
 </body>
 </html>
